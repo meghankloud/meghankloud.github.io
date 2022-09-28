@@ -2,24 +2,23 @@ body {
     margin: 0;
 }
 
-img {
-    position: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
- }
-
-div.content {
-    padding: 1px 16px;
-}
-
 header {
     height: 250px;
     width: 100%;
 }
 
-footer {
-    height: 150px;
-    width: 100%;
+h1.header-text {
+    padding:0;
+    margin:0;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(147, 33, 23);
+    background-color: rgba(225, 225, 225, 0.3);
+    font-size: 55px;
+    font-family: 'Satisfy', cursive;
 }
 
 div.red-line {
@@ -34,19 +33,6 @@ div.yellow-line {
     background-image: url("YellowBar.png");
     background-position: center;
     background-size: cover;
-}
-
-h1.header-text {
-    padding:0;
-    margin:0;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(147, 33, 23);
-    background-color: rgba(225, 225, 225, 0.3);
-    font-size: 45px;
 }
 
 ul.navbar {
@@ -78,4 +64,28 @@ li a {
 li a:hover {
     background-color: #ffd93d;
     color: #333;
+}
+
+div.content {
+    padding: 1px 16px;
+}
+
+h2,h3,h4 {
+    font-family: 'Satisfy', sans-serif;
+}
+
+p {
+    font-family: 'Merriweather';
+    font-size: '20px';
+}
+
+img {
+    position: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    height: 150px;
+    width: 100%;
 }

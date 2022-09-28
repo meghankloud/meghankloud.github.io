@@ -3,6 +3,11 @@ html,body {
     margin: 0;
 }
 
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -250px;
+}
+
 header {
     height: 250px;
     width: 100%;
@@ -98,12 +103,20 @@ p {
     font-family: 'Satisfy', sans-serif;
 }
 
+a {
+    color: rgb(147, 33, 23);
+}
+
 .tab { margin-left: 40px; }
 
 img {
     position: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.push {
+    height: 250px;
 }
 
 footer {

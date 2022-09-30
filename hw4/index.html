@@ -1,0 +1,24 @@
+<script>
+    numHotDogs = prompt("How many hotdogs do you want?", "");
+    numFries = prompt("How many fries do you want?", "");
+    numSodas = prompt("How many sodas do you want?", "");
+    document.write("Items ordered: " + numHotDogs + " hotdogs, " + numFries + " fries, " + numSodas + " sodas<br />");
+
+    subTotal = (numHotDogs * 4.25) + (numFries * 2.60) + (numSodas * 1.50);
+    document.write("Subtotal: $" + subTotal.toFixed(2) + "<br />");
+
+    if (subTotal >= 20) {
+        discountAmount = subTotal * 0.1;
+        document.write("Discount: $" + discountAmount.toFixed(2) + "<br />");
+        subTotal = subTotal * 0.9;
+        document.write("Subtotal after discount: $" + subTotal.toFixed(2) + "<br />");
+    }
+
+    taxAmount = subTotal * 0.0625;
+    document.write("Tax: $" + taxAmount.toFixed(2) + "<br />");
+    subTotal = subTotal * 1.0625
+    document.write("Subtotal after tax: $" + subTotal.toFixed(2) + "<br />");
+
+
+    document.write("Final Total: $" + subTotal.toFixed(2) + "<br />");
+</script>

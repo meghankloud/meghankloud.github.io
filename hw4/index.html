@@ -10,15 +10,12 @@
     if (subTotal >= 20) {
         discountAmount = subTotal * 0.1;
         document.write("Discount: $" + discountAmount.toFixed(2) + "<br />");
-        subTotal = subTotal * 0.9;
-        document.write("Subtotal after discount: $" + subTotal.toFixed(2) + "<br />");
+        subTotal = subTotal - discountAmount;
     }
 
     taxAmount = subTotal * 0.0625;
     document.write("Tax: $" + taxAmount.toFixed(2) + "<br />");
     subTotal = subTotal * 1.0625
-    document.write("Subtotal after tax: $" + subTotal.toFixed(2) + "<br />");
-
 
     document.write("Final Total: $" + subTotal.toFixed(2) + "<br />");
 </script>

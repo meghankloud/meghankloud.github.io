@@ -4,18 +4,32 @@
     numSodas = prompt("How many sodas do you want?", "");
     document.write("Items ordered: " + numHotDogs + " hotdogs, " + numFries + " fries, " + numSodas + " sodas<br />");
 
+    // Calculate and write initial total
     subTotal = (numHotDogs * 4.25) + (numFries * 2.60) + (numSodas * 1.50);
-    document.write("Subtotal: $" + subTotal.toFixed(2) + "<br />");
+    subTotalCents = Math.round((subTotal + Number.EPSILON) * 100) % 100;
+    subTotalDollars = Math.floor(subTotal);
+    document.write("Subtotal: $" + subTotalDollars + "." + subTotalCents + "<br />");
 
+    // Calculate and write discount amount (if applicable)
     if (subTotal >= 20) {
         discountAmount = subTotal * 0.1;
-        document.write("Discount: $" + discountAmount.toFixed(2) + "<br />");
+        discountAmountCents = Math.round((discountAmount + Number.EPSILON) * 100) % 100;
+        discountAmountDollars = Math.floor(discountAmount);
+        document.write("Discount: $" + discountAmountDollars + "." + discountAmountCents + "<br />");
+        // Add discount to subtotal
         subTotal = subTotal - discountAmount;
     }
 
+    // Calculate and write tax amount
     taxAmount = subTotal * 0.0625;
-    document.write("Tax: $" + taxAmount.toFixed(2) + "<br />");
+    taxAmountCents = Math.round((taxAmount + Number.EPSILON) * 100) % 100;
+    taxAmountDollars = Math.floor(taxAmount);
+    document.write("Tax: $" + taxAmountDollars + "." + taxAmountCents + "<br />");
+    // Add tax to subtotal
     subTotal = subTotal * 1.0625
 
-    document.write("Final Total: $" + subTotal.toFixed(2) + "<br />");
+    // Write final total with discount (if applicable) and tax added
+    finalTotalCents = Math.round((subTotal + Number.EPSILON) * 100) % 100;
+    finalTotalDollars = Math.floor(subTotal);
+    document.write("Total: $" + finalTotalDollars + "." + finalTotalCents + "<br />");
 </script>

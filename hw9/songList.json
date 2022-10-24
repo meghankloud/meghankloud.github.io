@@ -1,0 +1,74 @@
+[
+	{
+	    "artists": ["Conan Gray"],
+	    "title": "Memories",
+	    "genres": ["Alternative", "Pop"],
+	    "year": 2022
+    },
+    {
+	    "artists": ["Glass Animals"],
+	    "title": "Heat Waves",
+	    "genres": ["Alternative", "Contemporary R&B", "Psychedelic Pop"],
+	    "year": 2020
+    },
+    {
+	    "artists": ["COIN"],
+	    "title": "Chapstick",
+	    "genres": ["Alternative", "Pop"],
+	    "year": 2022
+    },
+    {
+	    "artists": ["Conan Gray"],
+	    "title": "Maniac",
+	    "genres": ["Alternative", "ElectroPop"],
+	    "year": 2019
+    },
+    {
+	    "artists": ["Bastille"],
+	    "title": "Those Nights",
+	    "genres": ["Indie Pop", "Alternative"],
+	    "year": 2019
+    },
+    {
+	    "artists": ["Sebastian Yatra"],
+	    "title": "Tacones Rojos",
+	    "genres": ["Latin Pop", "Dance Pop"],
+	    "year": 2021
+    },
+    {
+	    "artists": ["Bastille"],
+	    "title": "4AM",
+	    "genres": ["Alternative", "Pop"],
+	    "year": 2019
+    },
+    {
+	    "artists": ["LUCY"],
+	    "title": "Flowering",
+	    "genres": ["K-Rock", "K-Pop"],
+	    "year": 2020
+    },
+    {
+	    "artists": ["N.Flying"],
+	    "title": "Sober",
+	    "genres": ["K-Rock", "K-Pop"],
+	    "year": 2021
+    },
+    {
+	    "artists": ["SUNMI"],
+	    "title": "LALALAY",
+	    "genres": ["K-Pop"],
+	    "year": 2019
+    },
+    {
+	    "artists": ["Conan Gray"],
+	    "title": "Overdrive",
+	    "genres": ["Alternative", "Pop"],
+	    "year": 2021
+    },
+    {
+	    "artists": ["Set It Off"],
+	    "title": "Bleak December",
+	    "genres": ["Alternative", "Rock", "Indie"],
+	    "year": 2014
+    }
+]
